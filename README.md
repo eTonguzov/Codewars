@@ -1,12 +1,11 @@
 <h1 align="center">Codewars Katas</h1>
 
-<h6 align="center">
-  Solutions for Codewars katas
-</h6>
 
 These are my solutions to codewars [code katas](https://en.wikipedia.org/wiki/Kata_(programming)). 
 
 [My profile](https://www.codewars.com/users/eTonguzov) in Codewars.
+
+![alt rank](https://www.codewars.com/users/eTonguzov/badges/small)
 ## Training Manual
 From https://www.codewars.com/about:
 
