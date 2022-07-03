@@ -5,7 +5,5 @@
 # 6, "I"     -> "IIIIII"
 # 5, "Hello" -> "HelloHelloHelloHelloHello"
 def repeat_str(repeat, string):
-    for i in repeat:
-        arr.append(string)
-    return arr
-print(repeat_str("4", "oo"))
+    return string * repeat
+#print(repeat_str(4, "No"))

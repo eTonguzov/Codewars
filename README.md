@@ -5,6 +5,7 @@ These are my solutions to codewars [code katas](https://en.wikipedia.org/wiki/Ka
 
 [My profile](https://www.codewars.com/users/eTonguzov) in Codewars.
 
+
 ![alt rank](https://www.codewars.com/users/eTonguzov/badges/small)
 ## Training Manual
 From https://www.codewars.com/about:
