@@ -11,14 +11,18 @@
 # 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 
 def summation(num):
-    count = 0
-    start = 0
-    while(start<num):
-        count+=count+1
-        start+=1
+    count = 1
+    start = 1
+    result = 0
+    while(count<=num):
+        x = start*count
+        result+=x
+        count+=1
+    return result
 
 
-    return count
-
-print(summation(8))
+#print(summation(120))
+#other solition
+# def summation(num):
+#     return sum(range(1,num+1))
         
