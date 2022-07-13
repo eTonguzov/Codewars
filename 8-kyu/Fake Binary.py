@@ -3,11 +3,16 @@
 #
 # Note: input will never be an empty string
 def fake_bin(x):
-    zero = x[0]
-    num = list(zero)
+    # zero = str(x)
+    num = list(x)
+    new = []
+    res = ''
+    for i in num:
+        # int(i)
+        if int(i)>=5: new.append('1')
+        else: new.append('0')
+    for x in new:
+        res +=x
 
-
-
-
-    return num
-print(fake_bin([56562656532326966666]))
+    return res
+print(fake_bin('2312'))
