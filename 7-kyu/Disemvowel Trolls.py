@@ -8,21 +8,12 @@
 # For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 #
 # Note: for this kata y isn't considered a vowel.or 'e' or 'u' or 'i' or 'o' or 'y'
+import re
 def disemvowel(string_):
-#     arr = []
-#     for i in list(string_):
-#         if i == ('a' or 'e'):
-#             continue
-#         else:arr.append(i)
-#     string_ = str(arr)
-#     return string_
-# print(disemvowel("This website is for losers LOL!"))
+    list_znk = ['e', 'u', 'i' , 'o', '\n', 'O', 'E', 'U', 'I', ]
+    for i in list_znk:
+        string_=string_.replace(i, '')
 
-# import codewars_test as test
-# from solution import disemvowel
-#
-# @test.describe("Fixed Tests")
-# def basic_tests():
-#     @test.it("First fixed test")
-#     def fixed_test_1():
-#         test.assert_equals(disemvowel("This website is for losers LOL!"), "Ths wbst s fr lsrs LL!")
+    return string_
+print(disemvowel("N ffns bt,Yr wrtng s amng th wrst 'v vr rad"))
+
