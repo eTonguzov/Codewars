@@ -3,7 +3,7 @@
 
 These are my solutions to codewars [code katas](https://en.wikipedia.org/wiki/Kata_(programming)). 
 
-In this repository, I add tasks solutions in the programming languages: Python, Java and SQL.
+In this repository, I add tasks solutions in the programming languages: Python, Java and JavaScript.
 
 [My profile](https://www.codewars.com/users/eTonguzov) in Codewars.
 
