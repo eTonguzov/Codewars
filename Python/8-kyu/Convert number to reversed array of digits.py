@@ -24,3 +24,4 @@ def digitize(n):
 #         n //= 10
 #     return result
 
+25//=10
